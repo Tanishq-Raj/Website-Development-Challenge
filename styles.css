@@ -1,0 +1,57 @@
+.error-icon {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Increase the font size of all text */
+body {
+    font-size: 1.2rem; /* Adjust the value as needed */
+    background-color: rgba(255, 255, 255, 0.212); /* Background color with increased transparency */
+    background-image: url('dcb.png'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+
+/* Increase the font size of headings */
+h2 {
+    font-size: 2.5rem; /* Adjust the value as needed */
+}
+
+/* Increase the font size of input fields */
+.form-control {
+    font-size: 1.2rem; /* Adjust the value as needed */
+}
+
+/* Increase the height of input fields */
+.form-control-lg {
+    height: 3rem; /* Adjust the value as needed */
+}
+/* Increase the size of the Calculate Tax button */
+.btn-primary {
+    font-size: 1.2rem; /* Increase font size */
+    padding: 10px 20px; /* Increase padding */
+    border-radius: 10px; /* Add rounded corners */
+    background-color: #007bff; /* Change background color */
+    border-color: #007bff; /* Change border color */
+}
+
+/* On hover effect for the Calculate Tax button */
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+    border-color: #0056b3; /* Darker border color on hover */
+}
+#resultModal {
+    position: fixed;
+    top: 470px; /* Adjust as needed */
+    left: 520px; /* Adjust as needed */
+}
+
+
+}
